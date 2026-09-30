@@ -14,7 +14,7 @@ import java.util.Arrays;
 public class TestConfig implements CommandLineRunner {
 
     @Autowired
-    private UserRepository userRepository;
+    private UserRepository userRepository;  //injecao de dependencia
 
     @Override
     public void run(String... args) throws Exception {
