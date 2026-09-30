@@ -69,6 +69,7 @@ public class OrderItem implements Serializable {
         return price * quantity;
     }
 
+
     @Override
     public boolean equals(Object o) {
         if (!(o instanceof OrderItem orderItem)) return false;
